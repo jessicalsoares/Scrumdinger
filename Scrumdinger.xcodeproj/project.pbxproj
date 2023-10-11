@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B581BB4D2AD00D6400EA2F98 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB4C2AD00D6400EA2F98 /* ScrumdingerApp.swift */; };
+		B581BB4F2AD00D6400EA2F98 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB4E2AD00D6400EA2F98 /* MeetingView.swift */; };
+		B581BB512AD00D6400EA2F98 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB502AD00D6400EA2F98 /* Item.swift */; };
+		B581BB532AD00D6500EA2F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B581BB522AD00D6500EA2F98 /* Assets.xcassets */; };
+		B581BB562AD00D6500EA2F98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B581BB552AD00D6500EA2F98 /* Preview Assets.xcassets */; };
+		B581BB602AD00D6500EA2F98 /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB5F2AD00D6500EA2F98 /* ScrumdingerTests.swift */; };
+		B581BB6A2AD00D6500EA2F98 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB692AD00D6500EA2F98 /* ScrumdingerUITests.swift */; };
+		B581BB6C2AD00D6500EA2F98 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB6B2AD00D6500EA2F98 /* ScrumdingerUITestsLaunchTests.swift */; };
+		B581BB7C2AD016E900EA2F98 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB7B2AD016E900EA2F98 /* Theme.swift */; };
+		B581BB7E2AD0179400EA2F98 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB7D2AD0179400EA2F98 /* DailyScrum.swift */; };
+		B581BB802AD0181300EA2F98 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB7F2AD0181300EA2F98 /* CardView.swift */; };
+		B581BB842AD01D2700EA2F98 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB832AD01D2700EA2F98 /* TrailingIconLabelStyle.swift */; };
+		B581BB882AD01ED700EA2F98 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB872AD01ED700EA2F98 /* ScrumsView.swift */; };
+		B581BB8A2AD04C3300EA2F98 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB892AD04C3300EA2F98 /* DetailView.swift */; };
+		B581BB8C2AD053A600EA2F98 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB8B2AD053A600EA2F98 /* DetailEditView.swift */; };
+		B581BB8E2AD4023500EA2F98 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB8D2AD4023500EA2F98 /* ThemeView.swift */; };
+		B581BB902AD404D000EA2F98 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB8F2AD404D000EA2F98 /* ThemePicker.swift */; };
+		B581BB922AD432BC00EA2F98 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB912AD432BC00EA2F98 /* MeetingHeaderView.swift */; };
+		B581BB942AD4363500EA2F98 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB932AD4363500EA2F98 /* ScrumTimer.swift */; };
+		B581BB962AD438D000EA2F98 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB952AD438D000EA2F98 /* MeetingFooterView.swift */; };
+		B581BB982AD44BAB00EA2F98 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB972AD44BAB00EA2F98 /* NewScrumSheet.swift */; };
+		B581BB9A2AD44E8900EA2F98 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB992AD44E8900EA2F98 /* History.swift */; };
+		B581BB9C2AD4598400EA2F98 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB9B2AD4598400EA2F98 /* ScrumStore.swift */; };
+		B581BB9E2AD5B23A00EA2F98 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB9D2AD5B23A00EA2F98 /* ErrorWrapper.swift */; };
+		B581BBA02AD5B2B500EA2F98 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BB9F2AD5B2B500EA2F98 /* ErrorView.swift */; };
+		B581BBA22AD5BA5400EA2F98 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BBA12AD5BA5400EA2F98 /* MeetingTimerView.swift */; };
+		B581BBA42AD5C12C00EA2F98 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BBA32AD5C12C00EA2F98 /* SpeakerArc.swift */; };
+		B581BBA62AD5C6C600EA2F98 /*  SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BBA52AD5C6C600EA2F98 /*  SpeechRecognizer.swift */; };
+		B581BBA82AD6931900EA2F98 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581BBA72AD6931900EA2F98 /* HistoryView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B581BB5C2AD00D6500EA2F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B581BB412AD00D6400EA2F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B581BB482AD00D6400EA2F98;
+			remoteInfo = Scrumdinger;
+		};
+		B581BB662AD00D6500EA2F98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B581BB412AD00D6400EA2F98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B581BB482AD00D6400EA2F98;
+			remoteInfo = Scrumdinger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B581BB492AD00D6400EA2F98 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B581BB4C2AD00D6400EA2F98 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
+		B581BB4E2AD00D6400EA2F98 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		B581BB502AD00D6400EA2F98 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B581BB522AD00D6500EA2F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B581BB552AD00D6500EA2F98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B581BB5B2AD00D6500EA2F98 /* ScrumdingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B581BB5F2AD00D6500EA2F98 /* ScrumdingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerTests.swift; sourceTree = "<group>"; };
+		B581BB652AD00D6500EA2F98 /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B581BB692AD00D6500EA2F98 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
+		B581BB6B2AD00D6500EA2F98 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B581BB7B2AD016E900EA2F98 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B581BB7D2AD0179400EA2F98 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		B581BB7F2AD0181300EA2F98 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B581BB832AD01D2700EA2F98 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		B581BB872AD01ED700EA2F98 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		B581BB892AD04C3300EA2F98 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B581BB8B2AD053A600EA2F98 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		B581BB8D2AD4023500EA2F98 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		B581BB8F2AD404D000EA2F98 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		B581BB912AD432BC00EA2F98 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		B581BB932AD4363500EA2F98 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		B581BB952AD438D000EA2F98 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		B581BB972AD44BAB00EA2F98 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		B581BB992AD44E8900EA2F98 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		B581BB9B2AD4598400EA2F98 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		B581BB9D2AD5B23A00EA2F98 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		B581BB9F2AD5B2B500EA2F98 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		B581BBA12AD5BA5400EA2F98 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		B581BBA32AD5C12C00EA2F98 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		B581BBA52AD5C6C600EA2F98 /*  SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SpeechRecognizer.swift"; sourceTree = "<group>"; };
+		B581BBA72AD6931900EA2F98 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B581BB462AD00D6400EA2F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581BB582AD00D6500EA2F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581BB622AD00D6500EA2F98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B581BB402AD00D6400EA2F98 = {
+			isa = PBXGroup;
+			children = (
+				B581BB4B2AD00D6400EA2F98 /* Scrumdinger */,
+				B581BB5E2AD00D6500EA2F98 /* ScrumdingerTests */,
+				B581BB682AD00D6500EA2F98 /* ScrumdingerUITests */,
+				B581BB4A2AD00D6400EA2F98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B581BB4A2AD00D6400EA2F98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B581BB492AD00D6400EA2F98 /* Scrumdinger.app */,
+				B581BB5B2AD00D6500EA2F98 /* ScrumdingerTests.xctest */,
+				B581BB652AD00D6500EA2F98 /* ScrumdingerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B581BB4B2AD00D6400EA2F98 /* Scrumdinger */ = {
+			isa = PBXGroup;
+			children = (
+				B581BB782AD0167B00EA2F98 /* Models */,
+				B581BB4C2AD00D6400EA2F98 /* ScrumdingerApp.swift */,
+				B581BB8D2AD4023500EA2F98 /* ThemeView.swift */,
+				B581BB8B2AD053A600EA2F98 /* DetailEditView.swift */,
+				B581BB912AD432BC00EA2F98 /* MeetingHeaderView.swift */,
+				B581BB892AD04C3300EA2F98 /* DetailView.swift */,
+				B581BB952AD438D000EA2F98 /* MeetingFooterView.swift */,
+				B581BB4E2AD00D6400EA2F98 /* MeetingView.swift */,
+				B581BBA72AD6931900EA2F98 /* HistoryView.swift */,
+				B581BBA12AD5BA5400EA2F98 /* MeetingTimerView.swift */,
+				B581BB7F2AD0181300EA2F98 /* CardView.swift */,
+				B581BB872AD01ED700EA2F98 /* ScrumsView.swift */,
+				B581BB9F2AD5B2B500EA2F98 /* ErrorView.swift */,
+				B581BB502AD00D6400EA2F98 /* Item.swift */,
+				B581BB522AD00D6500EA2F98 /* Assets.xcassets */,
+				B581BB542AD00D6500EA2F98 /* Preview Content */,
+			);
+			path = Scrumdinger;
+			sourceTree = "<group>";
+		};
+		B581BB542AD00D6500EA2F98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B581BB552AD00D6500EA2F98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B581BB5E2AD00D6500EA2F98 /* ScrumdingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B581BB5F2AD00D6500EA2F98 /* ScrumdingerTests.swift */,
+			);
+			path = ScrumdingerTests;
+			sourceTree = "<group>";
+		};
+		B581BB682AD00D6500EA2F98 /* ScrumdingerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B581BB692AD00D6500EA2F98 /* ScrumdingerUITests.swift */,
+				B581BB6B2AD00D6500EA2F98 /* ScrumdingerUITestsLaunchTests.swift */,
+			);
+			path = ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		B581BB782AD0167B00EA2F98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B581BB7B2AD016E900EA2F98 /* Theme.swift */,
+				B581BB7D2AD0179400EA2F98 /* DailyScrum.swift */,
+				B581BB832AD01D2700EA2F98 /* TrailingIconLabelStyle.swift */,
+				B581BB932AD4363500EA2F98 /* ScrumTimer.swift */,
+				B581BB8F2AD404D000EA2F98 /* ThemePicker.swift */,
+				B581BB972AD44BAB00EA2F98 /* NewScrumSheet.swift */,
+				B581BB992AD44E8900EA2F98 /* History.swift */,
+				B581BB9B2AD4598400EA2F98 /* ScrumStore.swift */,
+				B581BB9D2AD5B23A00EA2F98 /* ErrorWrapper.swift */,
+				B581BBA32AD5C12C00EA2F98 /* SpeakerArc.swift */,
+				B581BBA52AD5C6C600EA2F98 /*  SpeechRecognizer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B581BB482AD00D6400EA2F98 /* Scrumdinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B581BB6F2AD00D6500EA2F98 /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
+			buildPhases = (
+				B581BB452AD00D6400EA2F98 /* Sources */,
+				B581BB462AD00D6400EA2F98 /* Frameworks */,
+				B581BB472AD00D6400EA2F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scrumdinger;
+			productName = Scrumdinger;
+			productReference = B581BB492AD00D6400EA2F98 /* Scrumdinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B581BB5A2AD00D6500EA2F98 /* ScrumdingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B581BB722AD00D6500EA2F98 /* Build configuration list for PBXNativeTarget "ScrumdingerTests" */;
+			buildPhases = (
+				B581BB572AD00D6500EA2F98 /* Sources */,
+				B581BB582AD00D6500EA2F98 /* Frameworks */,
+				B581BB592AD00D6500EA2F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B581BB5D2AD00D6500EA2F98 /* PBXTargetDependency */,
+			);
+			name = ScrumdingerTests;
+			productName = ScrumdingerTests;
+			productReference = B581BB5B2AD00D6500EA2F98 /* ScrumdingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B581BB642AD00D6500EA2F98 /* ScrumdingerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B581BB752AD00D6500EA2F98 /* Build configuration list for PBXNativeTarget "ScrumdingerUITests" */;
+			buildPhases = (
+				B581BB612AD00D6500EA2F98 /* Sources */,
+				B581BB622AD00D6500EA2F98 /* Frameworks */,
+				B581BB632AD00D6500EA2F98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B581BB672AD00D6500EA2F98 /* PBXTargetDependency */,
+			);
+			name = ScrumdingerUITests;
+			productName = ScrumdingerUITests;
+			productReference = B581BB652AD00D6500EA2F98 /* ScrumdingerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B581BB412AD00D6400EA2F98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B581BB482AD00D6400EA2F98 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					B581BB5A2AD00D6500EA2F98 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B581BB482AD00D6400EA2F98;
+					};
+					B581BB642AD00D6500EA2F98 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = B581BB482AD00D6400EA2F98;
+					};
+				};
+			};
+			buildConfigurationList = B581BB442AD00D6400EA2F98 /* Build configuration list for PBXProject "Scrumdinger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B581BB402AD00D6400EA2F98;
+			productRefGroup = B581BB4A2AD00D6400EA2F98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B581BB482AD00D6400EA2F98 /* Scrumdinger */,
+				B581BB5A2AD00D6500EA2F98 /* ScrumdingerTests */,
+				B581BB642AD00D6500EA2F98 /* ScrumdingerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B581BB472AD00D6400EA2F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581BB562AD00D6500EA2F98 /* Preview Assets.xcassets in Resources */,
+				B581BB532AD00D6500EA2F98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581BB592AD00D6500EA2F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581BB632AD00D6500EA2F98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B581BB452AD00D6400EA2F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581BB9A2AD44E8900EA2F98 /* History.swift in Sources */,
+				B581BBA82AD6931900EA2F98 /* HistoryView.swift in Sources */,
+				B581BB842AD01D2700EA2F98 /* TrailingIconLabelStyle.swift in Sources */,
+				B581BBA62AD5C6C600EA2F98 /*  SpeechRecognizer.swift in Sources */,
+				B581BB8E2AD4023500EA2F98 /* ThemeView.swift in Sources */,
+				B581BB962AD438D000EA2F98 /* MeetingFooterView.swift in Sources */,
+				B581BB9C2AD4598400EA2F98 /* ScrumStore.swift in Sources */,
+				B581BB942AD4363500EA2F98 /* ScrumTimer.swift in Sources */,
+				B581BB8A2AD04C3300EA2F98 /* DetailView.swift in Sources */,
+				B581BB7E2AD0179400EA2F98 /* DailyScrum.swift in Sources */,
+				B581BB4F2AD00D6400EA2F98 /* MeetingView.swift in Sources */,
+				B581BBA22AD5BA5400EA2F98 /* MeetingTimerView.swift in Sources */,
+				B581BB882AD01ED700EA2F98 /* ScrumsView.swift in Sources */,
+				B581BB9E2AD5B23A00EA2F98 /* ErrorWrapper.swift in Sources */,
+				B581BB922AD432BC00EA2F98 /* MeetingHeaderView.swift in Sources */,
+				B581BB7C2AD016E900EA2F98 /* Theme.swift in Sources */,
+				B581BB512AD00D6400EA2F98 /* Item.swift in Sources */,
+				B581BB982AD44BAB00EA2F98 /* NewScrumSheet.swift in Sources */,
+				B581BBA02AD5B2B500EA2F98 /* ErrorView.swift in Sources */,
+				B581BB8C2AD053A600EA2F98 /* DetailEditView.swift in Sources */,
+				B581BB902AD404D000EA2F98 /* ThemePicker.swift in Sources */,
+				B581BB802AD0181300EA2F98 /* CardView.swift in Sources */,
+				B581BBA42AD5C12C00EA2F98 /* SpeakerArc.swift in Sources */,
+				B581BB4D2AD00D6400EA2F98 /* ScrumdingerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581BB572AD00D6500EA2F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581BB602AD00D6500EA2F98 /* ScrumdingerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B581BB612AD00D6500EA2F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581BB6C2AD00D6500EA2F98 /* ScrumdingerUITestsLaunchTests.swift in Sources */,
+				B581BB6A2AD00D6500EA2F98 /* ScrumdingerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B581BB5D2AD00D6500EA2F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B581BB482AD00D6400EA2F98 /* Scrumdinger */;
+			targetProxy = B581BB5C2AD00D6500EA2F98 /* PBXContainerItemProxy */;
+		};
+		B581BB672AD00D6500EA2F98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B581BB482AD00D6400EA2F98 /* Scrumdinger */;
+			targetProxy = B581BB662AD00D6500EA2F98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B581BB6D2AD00D6500EA2F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B581BB6E2AD00D6500EA2F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B581BB702AD00D6500EA2F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.Scrumdinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B581BB712AD00D6500EA2F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.Scrumdinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B581BB732AD00D6500EA2F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.ScrumdingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrumdinger";
+			};
+			name = Debug;
+		};
+		B581BB742AD00D6500EA2F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.ScrumdingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scrumdinger";
+			};
+			name = Release;
+		};
+		B581BB762AD00D6500EA2F98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.ScrumdingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scrumdinger;
+			};
+			name = Debug;
+		};
+		B581BB772AD00D6500EA2F98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = teste.ScrumdingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scrumdinger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B581BB442AD00D6400EA2F98 /* Build configuration list for PBXProject "Scrumdinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581BB6D2AD00D6500EA2F98 /* Debug */,
+				B581BB6E2AD00D6500EA2F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B581BB6F2AD00D6500EA2F98 /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581BB702AD00D6500EA2F98 /* Debug */,
+				B581BB712AD00D6500EA2F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B581BB722AD00D6500EA2F98 /* Build configuration list for PBXNativeTarget "ScrumdingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581BB732AD00D6500EA2F98 /* Debug */,
+				B581BB742AD00D6500EA2F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B581BB752AD00D6500EA2F98 /* Build configuration list for PBXNativeTarget "ScrumdingerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581BB762AD00D6500EA2F98 /* Debug */,
+				B581BB772AD00D6500EA2F98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B581BB412AD00D6400EA2F98 /* Project object */;
+}
